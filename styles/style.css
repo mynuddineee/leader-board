@@ -2,6 +2,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* nav-var styles */
+.nav-bar{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.logo img{
+    width: 44px;
+    height: 54px;
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+   
+    
+}
+ul{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    
+ 
+    
+}
+
+ul>li{
+    list-style: none;
+    padding-right: 36px;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+   
+    
+}
 /* common styles or utilities */
 body{
     background-color: #F3F1FF;;
